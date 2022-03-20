@@ -32,7 +32,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
+  background-image: url("./assets/Amsterdam_at_night.jpg");
   color: var(--light);
   font-family: 'Poiret One', cursive;
 }
@@ -96,6 +96,11 @@ header a {
   color: var(--light);
 }
 
+.aboutFrame {
+  padding: 2px;
+  background-color: black;
+}
+
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -143,9 +148,9 @@ input:focus {
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
-li {
-  list-style: none;
-}
+/* li {
+  /* list-style: none; */
+/* } */ */
 
 nav a:hover {
   text-decoration: none;
@@ -153,6 +158,10 @@ nav a:hover {
 
 nav li {
   cursor: pointer;
+}
+
+.navList {
+   list-style: none;
 }
 
 textarea {

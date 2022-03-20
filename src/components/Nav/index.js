@@ -3,48 +3,39 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
   const {
-    categories = [],
-    setCurrentCategory,
-    contactSelected,
-    currentCategory,
-    setContactSelected,
+    // setAboutSelected,
+    navLinks,
+    currentNavLink,
+    setNavLink
   } = props;
 
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
+  // useEffect(() => {
+  //   document.title = capitalizeFirstLetter(setNavLink.name);
+  // }, [setNavLink]);
 
+  console.log(navLinks);
+  console.log(currentNavLink);
   return (
     <header className="flex-row px-1">
       <h2>
-        <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
-        </a>
+        Kenneth Rauch Davis      
       </h2>
       <nav>
         <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
-          </li>
-          {categories.map((category) => (
+
+            {navLinks.map((navLink) => (
             <li
-              className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
+              className={`mx-1 navList ${
+                currentNavLink === navLink  && 'navActive'
                 }`}
-              key={category.name}
+              key={navLink}
             >
               <span
                 onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
+                  setNavLink(navLink);
                 }}
               >
-                {capitalizeFirstLetter(category.name)}
+                {capitalizeFirstLetter(navLink)}
               </span>
             </li>
           ))}
