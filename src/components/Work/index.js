@@ -5,10 +5,10 @@ const Work = ({ category }) => {
   // const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentWork, setCurrentWork] = useState();
 
-  const [works] = useState([
+  const works = [
     {
       title: 'Project 2: Get Fit!',
-      img: '1_Project2_Getfit.jpg',
+      pic: '1_Project2_Getfit.jpg',
       alt: '',
       description: 'Team based Project utilizing a Fullstack build',
       website: 'https://damp-reef-46989.herokuapp.com/',
@@ -16,7 +16,7 @@ const Work = ({ category }) => {
     },
     {
       title: 'Challeng 19: PWA Budget Tracker',
-      img: '2A_Challenge19_BudgetTrack_PWA.png',
+      pic: '2A_Challenge19_BudgetTrack_PWA.png',
       alt: '',
       description: 'Challege 19:  A Budget Tracker structured as a PWA.',
       website: 'https://afternoon-hollows-70451.herokuapp.com/',
@@ -24,7 +24,7 @@ const Work = ({ category }) => {
     },
     {
       title: 'Challenge 18: Social Media App',
-      img: '3A_Challenge18_Social_Media.png',
+      pic: '3A_Challenge18_Social_Media.png',
       alt: '',
       description: 'Links go to GitHub Repository, where video snippets are shown outlining the flow of Express routes in the context of a Social Media app.',
       website: 'https://github.com/RauchDavis13/Social_Media.git',
@@ -32,7 +32,7 @@ const Work = ({ category }) => {
     },
     {
       title: 'Project 1: The Jokeinator',
-      img: '4_Project1_The_Jokeinator.png',
+      pic: '4_Project1_The_Jokeinator.png',
       alt: '',
       description: "Team based project.  Focus on local storage and using 3rd party API's",
       website: 'https://rauchdavis13.github.io/Project1_The_Jokeinator/',
@@ -40,7 +40,7 @@ const Work = ({ category }) => {
     },
     {
       title: 'Challenge 14: Tech Blog',
-      img: '5_Challenge14_Tech_Blog.png',
+      pic: '5_Challenge14_Tech_Blog.png',
       alt: '',
       description: 'The Tech Blog - App featuring use of Expressjs with dynamicall loaded elements',
       website: 'https://radiant-dusk-58701.herokuapp.com/',
@@ -48,14 +48,14 @@ const Work = ({ category }) => {
     },
     {
       title: 'Challenge 9: README Maker',
-      img: '6_Challenge9_ReadMe_Maker.png',
+      pic: '6_Challenge9_ReadMe_Maker.png',
       alt: '',
       description: 'My First PWA. This budget trakcer app can be used with and without internet.',
       website: 'https://radiant-dusk-58701.herokuapp.com/',
       repo: 'https://github.com/RauchDavis13/Tech_Blog'
     }
    
-  ]);
+  ];
 
   const currentworks = works.filter(photo => photo.category === category);
 
@@ -67,8 +67,8 @@ const Work = ({ category }) => {
   return (
     <>
       {works.map(work => (
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src={require(`../../assets/work/${works.img}`).default} alt="Card image cap">
+          <div class="card" >
+            <img class="card-img-top" src={require(`../../assets/work/${works.pic}`)} alt="Card image cap"></img>
             <div class="card-body">
               <h5 class="card-title">`${works.title}`</h5>
               <p class="card-text">`${works.description}`</p>
