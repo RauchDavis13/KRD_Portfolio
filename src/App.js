@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
-import Gallery from './components/Gallery';
+import Work from './components/Work';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 
@@ -13,8 +13,8 @@ function App() {
     switch (navLink) {
       case 'About Me':
         return <About />
-      // case 'Work':
-      //   return <Work />
+      case 'Work':
+        return <Work />
       case 'Resume':
         return <Resume />
       case 'Contact':
