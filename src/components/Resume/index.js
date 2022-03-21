@@ -6,15 +6,15 @@ function Resume() {
       <h1 id="about"></h1>
       <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
       <div className="my-2">
-        <h1 className='aboutFrame'>Kenneth Rauch Davis</h1>
+        <h1 className='aboutFrame centering'>Kenneth Rauch Davis</h1>
         <br></br>
-        <div>
+        <div className='aboutFrame centering'>
           <p>Email: rauchdavis13@gmail.com</p>
         </div>
-        <h1 className='aboutFrame'>Work Experience</h1>
+        <h1 className='aboutFrame centering'>Work Experience</h1>
         <br></br>
 
-        <h2 className='aboutFrame'>Fillipo Berio Olive Oil: 1/4/2021 - Current</h2>
+        <h2 className='aboutFrame centering'>Fillipo Berio Olive Oil: 1/4/2021 - Current</h2>
         <h4 className='aboutFrame'>
         TRADE MARKETING & OPERATIONS MANAGER
           <p className='aboutFrame'>
@@ -64,7 +64,7 @@ function Resume() {
 
         <br></br>
         <br></br>
-        <h2 className='aboutFrame'>TATA Consumer Products (Eight O’Clock Coffee, Tetley Tea, Good Earth Tea ):  12/15/14 – 12/31/20</h2>
+        <h2 className='aboutFrame centering'>TATA Consumer Products (Eight O’Clock Coffee, Tetley Tea, Good Earth Tea ):  12/15/14 – 12/31/20</h2>
         <h4 className='aboutFrame'>
         TRADE MARKETING MANAGER (TEA)
         </h4>      
@@ -116,7 +116,7 @@ function Resume() {
 
         <br></br>
         <br></br>
-        <h2 className='aboutFrame'>PANOS brands (Specialty Foods CPG): 11/2007 – 12/14/14</h2>
+        <h2 className='aboutFrame centering'>PANOS brands (Specialty Foods CPG): 11/2007 – 12/14/14</h2>
         <h4 className='aboutFrame'>
         SALES PLANNING AND ANALYSIS MANAGER 
         </h4>      
@@ -168,9 +168,10 @@ function Resume() {
             <li>Enhanced Slotting review process for better estimations of expected gains for new distribution, including profit</li>
           </ul>
         </div>
+
         <br></br>
         <br></br>
-        <h2 className='aboutFrame'>Tree Of Life Northeast (Natural/Specialty Fds Distributor): 8/1991 – 11/2007</h2>
+        <h2 className='aboutFrame centering'>Tree Of Life Northeast (Natural/Specialty Fds Distributor): 8/1991 – 11/2007</h2>
         <div className='aboutFrame'>
           <ul>
             <li>Territory Manager:  03/2006 – 11/2007 (Manhattan, Brooklyn, Bronx, NJ, Eastern PA)</li>
@@ -183,7 +184,7 @@ function Resume() {
 
         <br></br>
         <br></br>
-        <h1 className='aboutFrame'>Education</h1>
+        <h1 className='aboutFrame centering'>Education</h1>
         <div className='aboutFrame'>
           <ul>
             <li>Rutgers Fullstack Development Computer Coding Bootcamp 10/14/21 - 04/07/22</li>

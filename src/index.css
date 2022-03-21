@@ -101,6 +101,10 @@ header a {
   background-color: black;
 }
 
+.centering {
+  text-align: center;
+}
+
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -239,6 +243,7 @@ textarea {
 .card {
   width: 25%;
   text-align: center;
+  background-color: black;
 }
 
 .img-thumbnail {
@@ -297,4 +302,17 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.footer {
+  background-color: black;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerA {
+  border: 2px, solid, white;
+  border-radius: 5px;
+
 }

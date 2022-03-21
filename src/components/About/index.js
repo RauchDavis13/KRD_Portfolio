@@ -6,9 +6,9 @@ function About() {
       <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
       <h1 id="about"></h1>
       <div className="my-2">
-        <h1 className='aboutFrame'>My name is Kenneth Rauch Davis</h1>
+        <h1 className='aboutFrame centering'>My name is Kenneth Rauch Davis</h1>
         <br></br>
-        <h3 className='aboutFrame'>Come, lets explore the creative and make something</h3>
+        <h3 className='aboutFrame centering'>Come, lets explore the creative and make something</h3>
         <br></br>
         <p className='aboutFrame'>
          I have been in the food industry since 1991.  I started in the natural foods world at a time when natural foods was a very niche segment.

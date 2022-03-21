@@ -4,6 +4,7 @@ import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const navLinks = ['About Me', 'Work', 'Resume', 'Contact'];
@@ -34,6 +35,9 @@ console.log(currentNavLink);
          <main>
            {renderContent(currentNavLink)}
          </main>
+      <Footer>
+
+      </Footer>
 
     </div>
   );
