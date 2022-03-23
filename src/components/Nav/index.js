@@ -1,33 +1,19 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import React from "react";
+import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
-  const {
-    // setAboutSelected,
-    navLinks,
-    currentNavLink,
-    setNavLink
-  } = props;
+  const { navLinks, currentNavLink, setNavLink } = props;
 
-  // useEffect(() => {
-  //   document.title = capitalizeFirstLetter(setNavLink.name);
-  // }, [setNavLink]);
-
-  console.log(navLinks);
-  console.log(currentNavLink);
   return (
     <header className="flex-row px-1">
-      <h2>
-        Kenneth Rauch Davis      
-      </h2>
+      <h2>Kenneth Rauch Davis</h2>
       <nav>
         <ul className="flex-row">
-
-            {navLinks.map((navLink) => (
+          {navLinks.map((navLink) => (
             <li
               className={`mx-1 navList ${
-                currentNavLink === navLink  && 'navActive'
-                }`}
+                currentNavLink === navLink && "navActive"
+              }`}
               key={navLink}
             >
               <span
