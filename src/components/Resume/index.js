@@ -10,19 +10,46 @@ function Resume() {
         alt="cover"
       />
       <div className="my-2">
-        <h1 className="aboutFrame centering">Kenneth Rauch Davis</h1>
+        <h1 className="aboutFrame centering rezHeader">Kenneth Rauch Davis</h1>
         <br></br>
         <div className="aboutFrame centering">
           <p>Email: rauchdavis13@gmail.com</p>
         </div>
-        <h1 className="aboutFrame centering">Work Experience</h1>
+        < br></br>
+        <div className="aboutFrame centering">
+          <h3>Download Resume</h3>
+          <a href={process.env.PUBLIC_URL + "/images/Kenneth_Rauch_Davis_Resume_Coding.pdf"} download="Kenneth Rauch Davis Resume">
+            <img src={process.env.PUBLIC_URL+"/images/resume_icon.png"} alt="Resume"></img>
+          </a>
+        </div>
+
+        <h2 className="aboutFrame centering rezTop">
+          Rutgers Fullstack Development Computer Coding Bootcamp
+        </h2>
+        <h4 className="aboutFrame centering rezTitle">
+          FULL STACK DEVELOPER  </h4>
+          <p className="aboutFrame centering">
+            I've taken the incredible journey of becoming a coder through the Rutgers Fullstack Development Computer Coding Bootcamp.  With intense study and discipline, I've been able to achieve a grade average of 93.92%
+          </p>
+       
+     
+         <div className="aboutFrame centering">
+          <h5>REACT, Progressive Web Applications (PWA), MERN (GraphQL and Apollo Server), Model View Controller (MVC), NoSQL</h5>       
+        </div>
+        <br></br>
+        <div className="aboutFrame centering">
+          <h5>HTML, CSS, Javascript, Web API's, Third Party API's, Server Side API's, Node.js, Object Oriented Programming</h5>        
+        </div>
+   
+        <br></br>
+        <h1 className="aboutFrame centering rezHeader">Work Experience</h1>
         <br></br>
 
-        <h2 className="aboutFrame centering">
+        <h2 className="aboutFrame centering rezTop">
           Fillipo Berio Olive Oil: 1/4/2021 - Current
         </h2>
-        <h4 className="aboutFrame">
-          TRADE MARKETING & OPERATIONS MANAGER
+        <h4 className="aboutFrame centering rezTitle">
+          TRADE MARKETING & OPERATIONS MANAGER </h4>
           <p className="aboutFrame">
             I was hired for the function of Trade Marketing with a focus on
             Operations. However, most of what I’ve accomplished has been based
@@ -32,7 +59,7 @@ function Resume() {
             1 of 2 people in the North America division to earn multiple exceeds
             in my review.
           </p>
-        </h4>
+        
         <div className="aboutFrame">
           <h5>Forecasting </h5>
           <ul>
@@ -129,11 +156,11 @@ function Resume() {
 
         <br></br>
         <br></br>
-        <h2 className="aboutFrame centering">
+        <h2 className="aboutFrame centering rezTop ">
           TATA Consumer Products (Eight O’Clock Coffee, Tetley Tea, Good Earth
           Tea ): 12/15/14 – 12/31/20
         </h2>
-        <h4 className="aboutFrame">TRADE MARKETING MANAGER (TEA)</h4>
+        <h4 className="aboutFrame centering rezTitle">TRADE MARKETING MANAGER (TEA)</h4>
         <div className="aboutFrame">
           <h5>Trade Spend</h5>
           <ul>
@@ -233,10 +260,10 @@ function Resume() {
 
         <br></br>
         <br></br>
-        <h2 className="aboutFrame centering">
+        <h2 className="aboutFrame centering rezTop">
           PANOS brands (Specialty Foods CPG): 11/2007 – 12/14/14
         </h2>
-        <h4 className="aboutFrame">SALES PLANNING AND ANALYSIS MANAGER</h4>
+        <h4 className="aboutFrame centering rezTitle">SALES PLANNING AND ANALYSIS MANAGER</h4>
         <div className="aboutFrame">
           <h5>
             Trade Spend & Distribution Management – Trade spend includes off
@@ -330,29 +357,29 @@ function Resume() {
 
         <br></br>
         <br></br>
-        <h2 className="aboutFrame centering">
+        <h2 className="aboutFrame centering rezTop">
           Tree Of Life Northeast (Natural/Specialty Fds Distributor): 8/1991 –
           11/2007
         </h2>
         <div className="aboutFrame">
-          <ul>
-            <li>
+          <ul > 
+            <li className="rezTitle">
               Territory Manager: 03/2006 – 11/2007 (Manhattan, Brooklyn, Bronx,
               NJ, Eastern PA)
             </li>
-            <li>Publications Manager: 02/2003 – 03/2006 </li>
-            <li>Sales Coordinator: 01/2000 – 3/2006 </li>
-            <li>
+            <li className="rezTitle">Publications Manager: 02/2003 – 03/2006 </li>
+            <li className="rezTitle">Sales Coordinator: 01/2000 – 3/2006 </li>
+            <li className="rezTitle">
               Office Administrator / Administrative Assistant to Director of HR:
               03/1992 - 12/1999
             </li>
-            <li>Inside Sales Representative: 08/91 - 03/92</li>
+            <li className="rezTitle">Inside Sales Representative: 08/91 - 03/92</li>
           </ul>
         </div>
 
         <br></br>
         <br></br>
-        <h1 className="aboutFrame centering">Education</h1>
+        <h1 className="aboutFrame centering rezHeader">Education</h1>
         <div className="aboutFrame">
           <ul>
             <li>

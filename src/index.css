@@ -4,7 +4,7 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
+  --primary: rgb(48, 48, 175);
   --secondary: #f3a847;
   --tertiary: #b12704;
   --light: #fafafa;
@@ -90,6 +90,7 @@ a:hover {
 
 header {
   background: var(--dark);
+  justify-content: space-between;
 }
 
 header a {
@@ -155,6 +156,10 @@ input:focus {
 /* li {
   /* list-style: none; */
 /* } */ */
+
+nav {
+  right: auto;
+}
 
 nav a:hover {
   text-decoration: none;
@@ -241,9 +246,10 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  width: 100%;
   text-align: center;
   background-color: black;
+  border: var(--primary) solid 3px ;
 }
 
 .img-thumbnail {
@@ -306,12 +312,48 @@ a {
 
 .footer {
   background-color: black;
-  height: 10%;
+  height: 12%;
+  border: 2px solid var(--primary);
+  border-radius: 3px;
   display: flex;
   justify-content: space-around;
 }
 
 .footerA {
-  border: 2px, solid, white;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: var(--primary);
+  color: white;
+  text-decoration: none;
+}
+
+.footerA:hover {
+  background-color: darkorange ;
+  color: black;
+  text-decoration: none;
+}
+
+.contact-error {
+  background-color: black;
+  color: yellow;
+}
+
+.rezHeader {
+  color: white;
+  background-color: darkblue ;
+}
+
+.rezTop {
+  color: deepskyblue;
+}
+
+.rezTitle {
+  color: #f3a847;
+}
+
+.workHeader {
+  background-color: black;
+  text-align: center;
+  border: var(--primary) solid 3px;
   border-radius: 5px;
 }

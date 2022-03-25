@@ -11,7 +11,7 @@ function About() {
       />
 
       <div className="my-2">
-        <h1 className="aboutFrame centering">My name is Kenneth Rauch Davis</h1>
+        <h1 className="aboutFrame centering rezTitle">My name is Kenneth Rauch Davis</h1>
         <br></br>
         <h3 className="aboutFrame centering">
           Come, lets explore the creative and make something

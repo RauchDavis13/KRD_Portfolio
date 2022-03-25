@@ -77,7 +77,7 @@ function ContactForm() {
           />
         </div>
         {errorMessage && (
-          <div>
+          <div className="contact-error">
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
