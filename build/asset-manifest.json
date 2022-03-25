@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/KRD_Portfolio/static/css/main.8b920eaf.css",
+    "main.js": "/KRD_Portfolio/static/js/main.87e8ea4d.js",
+    "static/js/787.b9ec5bb0.chunk.js": "/KRD_Portfolio/static/js/787.b9ec5bb0.chunk.js",
+    "static/media/Amsterdam_at_night.jpg": "/KRD_Portfolio/static/media/Amsterdam_at_night.8185584411e6182f0fd0.jpg",
+    "static/media/ResumePic.jpg": "/KRD_Portfolio/static/media/ResumePic.a09db89f1ec4065fdfd2.jpg",
+    "index.html": "/KRD_Portfolio/index.html",
+    "main.8b920eaf.css.map": "/KRD_Portfolio/static/css/main.8b920eaf.css.map",
+    "main.87e8ea4d.js.map": "/KRD_Portfolio/static/js/main.87e8ea4d.js.map",
+    "787.b9ec5bb0.chunk.js.map": "/KRD_Portfolio/static/js/787.b9ec5bb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b920eaf.css",
+    "static/js/main.87e8ea4d.js"
+  ]
+}
