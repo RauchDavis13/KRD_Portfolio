@@ -1,10 +1,10 @@
 import React from "react";
-import coverImage from "../../assets/Amsterdam_Ken.jpg";
+// import coverImage from "/images/Amsterdam_Ken.jpg";
 function About() {
   return (
     <section className="my-5">
       <img
-        src={coverImage}
+        src={process.env.PUBLIC_URL + "/images/Amsterdam_Ken.jpg"}
         className="my-2"
         style={{ width: "100%" }}
         alt="cover"
