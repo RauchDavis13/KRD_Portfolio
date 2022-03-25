@@ -4,7 +4,7 @@ function Resume() {
   return (
     <section className="my-5">
       <img
-        src={coverImage}
+        src={process.env.PUBLIC_URL + "/images/ResumePic.jpg"}
         className="my-2"
         style={{ width: "100%" }}
         alt="cover"

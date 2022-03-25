@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import { validateEmail } from "../../utils/helpers";
-import contactImage from "../../assets/Bike_For_Contact.jpg";
+// import contactImage from "../../assets/Bike_For_Contact.jpg";
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -42,7 +42,7 @@ function ContactForm() {
   return (
     <section>
       <img
-        src={contactImage}
+        src={process.env.PUBLIC_URL + "/images/Bike_For_Contact.jpg"}
         className="my-2"
         style={{ width: "100%" }}
         alt="contact_page"

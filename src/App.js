@@ -9,8 +9,12 @@ import Footer from "./components/Footer";
 function App() {
   const navLinks = ["About Me", "Work", "Resume", "Contact"];
   const [currentNavLink, setNavLink] = useState(navLinks[0]);
+  const myStyle={
+    backgroundImage:`url(${process.env.PUBLIC_URL+ "/images/Amsterdam_at_night.jpg"})`
+  };
 
   function renderContent(navLink) {
+ 
     switch (navLink) {
       case "About Me":
         return <About />;
@@ -26,7 +30,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div style={{myStyle}}>
       <Nav
         navLinks={navLinks}
         currentNavLink={currentNavLink}
